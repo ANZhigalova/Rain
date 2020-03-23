@@ -37,7 +37,8 @@ namespace WindowsFormsRain
             DropColor = Color.FromArgb(rand.Next(25, 255), 0, 0, rand.Next(200));
             do
             {
-                dy = rand.Next(0, 5);
+                //dy = rand.Next(0, 5);
+                dy = 3;
             } while (dy == 0);
         }
 
